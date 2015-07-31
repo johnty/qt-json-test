@@ -6,6 +6,8 @@
 #include <QFile>
 #include <QDebug>
 
+#include "huelight.h"
+
 namespace Ui {
 class MainWindow;
 }
@@ -25,6 +27,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    HueLight myLight;
+
 };
 
 #endif // MAINWINDOW_H

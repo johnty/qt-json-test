@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    huelight.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    huelight.h
 
 FORMS    += mainwindow.ui
